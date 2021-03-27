@@ -20,38 +20,38 @@ def main():
     db_sess = db_session.create_session()
     db_sess.add(user)
 
-    user = User()
-    user.surname = 'Nastya'
-    user.name = "Peace"
-    user.age = "13"
-    user.position = 'serjant'
-    user.speciality = 'research engineer'
-    user.address = 'module_2'
-    user.email = "greenpeace@mars.org"
+    user2 = User()
+    user2.surname = 'Nastya'
+    user2.name = "Peace"
+    user2.age = "13"
+    user2.position = 'serjant'
+    user2.speciality = 'research engineer'
+    user2.address = 'module_2'
+    user2.email = "greenpeace@mars.org"
     db_sess = db_session.create_session()
-    db_sess.add(user)
+    db_sess.add(user2)
 
-    user = User()
-    user.surname = 'Ivan'
-    user.name = "Ivanov"
-    user.age = "19"
-    user.position = 'cap'
-    user.speciality = 'research engineer'
-    user.address = 'module_3'
-    user.email = "ivanushki_international@mars.org"
+    user3 = User()
+    user3.surname = 'Ivan'
+    user3.name = "Ivanov"
+    user3.age = "19"
+    user3.position = 'cap'
+    user3.speciality = 'research engineer'
+    user3.address = 'module_3'
+    user3.email = "ivanushki_international@mars.org"
     db_sess = db_session.create_session()
-    db_sess.add(user)
+    db_sess.add(user3)
 
-    user = User()
-    user.surname = 'Nyton'
-    user.name = "Zendea"
-    user.age = "24"
-    user.position = 'op op'
-    user.speciality = 'research engineer'
-    user.address = 'module_4'
-    user.email = "kyraga@mars.org"
+    user4 = User()
+    user4.surname = 'Nyton'
+    user4.name = "Zendea"
+    user4.age = "24"
+    user4.position = 'op op'
+    user4.speciality = 'research engineer'
+    user4.address = 'module_4'
+    user4.email = "kyraga@mars.org"
     db_sess = db_session.create_session()
-    db_sess.add(user)
+    db_sess.add(user4)
 
     db_sess.commit()
 
